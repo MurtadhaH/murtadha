@@ -1,0 +1,47 @@
+.lang {
+    position: relative;
+    width: 100px;
+    height: 35px;
+    background: white;
+    border: 1px #a59c9c solid;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.lang div.active {
+    transform: translatex(0%);
+    transition: all 1s;
+}
+
+.lang div {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    transform: translatex(100%);
+    background: white;
+}
+
+.lang span {
+    display: flex;
+    height: 100%;
+    width: 47%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    font-size: 20px;
+    color: #878787;
+}
+
+.lang img {
+    display: block;
+    width: 48%;
+    height: 100%;
+}
+

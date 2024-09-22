@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>من نحن</title>
+    <title>About Us</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <header>
     <nav id="nav-menu">
         <ul>
-            <li><a href="index.html">الرئيسية</a></li>
-            <li><a href="about.html">حول الشركة</a></li>
-            <li><a href="contact.html">تواصل معنا</a></li>
+            <li><a href="index-en.html">Home</a></li>
+            <li><a href="about-en.html">About Us</a></li>
+            <li><a href="contact-en.html">Contact Us</a></li>
         </ul>
         <div class="menu-icon" id="menu-icon">
             <span></span>
@@ -22,43 +22,54 @@
     </nav>
     <div class="logo">
         <img src="imgs/Logo.png" alt="the logo of the company"/>
-        <h1>شركة الرؤى الرقمية</h1>
+        <h1>Al-Rowaa Digital Technology</h1>
     </div>
+    <div class="lang">
+        <div class="en">
+            <span>en</span>
+            <img src="imgs/en.png" alt="English"/>
+        </div>
+        <div class="ar active">
+            <span>ar</span>
+            <img src="imgs/ar.png" alt="Arabic"/>
+        </div>
+    </div>
+    <script src="lang.js"></script>
+    <link rel="stylesheet" href="lang.css">
 </header>
 
 <main>
     <section class="about-us">
-        <h2>من نحن</h2>
-        <p>نحن شركة الرؤى الرقمية، نعمل على توفير حلول رقمية متكاملة للمؤسسات والشركات، من تطوير مواقع ويب وتطبيقات
-            موبايل إلى التسويق الرقمي والتحليلات البيانية.</p>
+        <h2>About Us</h2>
+        <p>We are Al-Rowaa Digital Technology, a professional company that specializes in providing integrated digital solutions for institutions and companies, from web development and mobile applications to digital marketing and data analytics.</p>
         <div class="about-us-grid">
             <div class="about-us-item">
                 <img src="imgs/application.jpg" alt="About Us 1">
-                <h3>تطوير المواقع</h3>
-                <p>نقوم بتصميم وتطوير مواقع ويب احترافية ومتوافقة مع أحدث التقنيات.</p>
+                <h3>Web Development</h3>
+                <p>We design and develop professional websites that are compatible with the latest technologies.</p>
             </div>
             <div class="about-us-item">
                 <img src="imgs/application.jpg" alt="About Us 2">
-                <h3>تطوير التطبيقات</h3>
-                <p>نقوم بتصميم وتطوير تطبيقات موبايل احترافية ومتوافقة مع أحدث التقنيات.</p>
+                <h3>Mobile Applications</h3>
+                <p>We design and develop professional mobile applications that are compatible with the latest technologies.</p>
             </div>
             <div class="about-us-item">
                 <img src="imgs/cammera.png" alt="About Us 3">
-                <h3>التسويق الرقمي</h3>
-                <p>نقوم بتقديم خدمات التسويق الرقمي، من تحسين محركات البحث إلى التسويق عبر وسائل التواصل الاجتماعي.</p>
+                <h3>Digital Marketing</h3>
+                <p>We provide digital marketing services, from search engine optimization to social media marketing.</p>
             </div>
         </div>
     </section>
 </main>
 <footer>
-    <p>&copy; 2024 شركة الرؤى الرقمية. جميع الحقوق محفوظة.</p>
+    <p>&copy; 2024 Al-Rowaa Digital Technology. All rights reserved.</p>
 </footer>
 <style>
     /* ... existing styles ... */
     body{
         background-color: #fff;
+        direction: ltr;
     }
-
 
     .about-us {
         padding: 20px;
